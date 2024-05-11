@@ -8,7 +8,7 @@ DEMULTIPLEXER, MAGNITUDE COMPARATOR using SIMULATION AND IMPLEMENTATION OF COMBI
  #APPARATUS REQUIRED: VIVADO 2023.2
 
 
- #PROCEDURE:PROCEDURE:
+ #PROCEDURE:
 STEP:1 Start the Vivado, Select and Name the New project.
 STEP:2 Select the device family, device, package and speed.
 STEP:3 Select new source in the New Project and select Verilog Module
@@ -23,23 +23,7 @@ and verify the outputs as per the truth table.
 
 #ENCODER:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/4653c150-da55-403a-9bf6-1d0b066f6923)
 
 
 #PROGRAM:
@@ -54,56 +38,12 @@ and verify the outputs as per the truth table.
 
 OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/39e461d2-021a-4331-a00c-f621c2b5d2e6)
 
 
 #DECORDER:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/10e45252-7c64-4fb1-82b9-0e389a6ff81b)
 
 
 
@@ -124,55 +64,13 @@ endmodule
 
 #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/625db202-8ec3-4854-a8c0-866bc7def091)
 
 
 
 #MULTIPEXER:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/0ddcecbb-f16c-4faf-a07c-68308e0c097f)
 
 
 
@@ -196,55 +94,13 @@ endmodule
 
 #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/901d55a8-95ed-4925-9a30-436629c33519)
 
 
 
 #DEMULTIPLEXER:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/f8462642-e086-4031-9a6b-9253e05332d7)
 
 
 
@@ -266,51 +122,12 @@ endmodule
 #OUTPUT:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/73c224a7-e56c-4864-b819-860e6133571f)
 
 
 #MAGNITUDE COMPARATOR:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/bf05f183-62b4-4033-82c5-b90991cb9574)
 
 
 
@@ -344,33 +161,7 @@ end
 
 #OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/de93518e-2703-4a66-b9bd-360405d62f96)
 
 
 
