@@ -23,7 +23,8 @@ and verify the outputs as per the truth table.
 
 #ENCODER:
 
-![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/4653c150-da55-403a-9bf6-1d0b066f6923)
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/05ff5bc8-333d-44da-8710-93a249edaf79)
+
 
 
 #PROGRAM:
@@ -68,9 +69,10 @@ endmodule
 
 
 
-#MULTIPEXER:
+#MULTIPLEXER 8:1:
 
-![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/0ddcecbb-f16c-4faf-a07c-68308e0c097f)
+
+![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/1aad5a53-cd6b-4b29-beb2-1ee33ea376e7)
 
 
 
