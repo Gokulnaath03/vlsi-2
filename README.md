@@ -21,7 +21,7 @@ STEP:6 Click the simulation to simulate the program and give the inputs
 and verify the outputs as per the truth table.
 
 
-#ENCODER:
+#ENCODER 8:3:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/05ff5bc8-333d-44da-8710-93a249edaf79)
 
@@ -42,7 +42,7 @@ OUTPUT:
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/39e461d2-021a-4331-a00c-f621c2b5d2e6)
 
 
-#DECORDER:
+#DECORDER 3:8:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/10e45252-7c64-4fb1-82b9-0e389a6ff81b)
 
@@ -100,7 +100,7 @@ endmodule
 
 
 
-#DEMULTIPLEXER:
+#DEMULTIPLEXER 1:8:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/f8462642-e086-4031-9a6b-9253e05332d7)
 
