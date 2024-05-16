@@ -109,18 +109,18 @@ endmodule
 
 
 ## PROGRAM:
-module Demux1_8(i, s0, s1, s2, y);
-input i;
-input s0, s1, s2;
-output [7:0] y;
-assign y[0]=~s0 &~s1 &~s2 & i;
-assign y[1]=~s0 &~s1 &s2 & i;
-assign y[2]=~s0 &s1 &~s2 & i;
-assign y[3]=~s0 &s1 &s2 & i;
-assign y[4]=s0 & ~s1 & ~s2 & i;
-assign y[5]=s0 & ~s1 & s2 & i;
-assign y[6]=s0 & s1 & ~s2 & i;
-assign y[7]=s0 & s1 &s2 & i;
+module Demux1_8(i, s0, s1, s2, y);<br>
+input i;<br>
+input s0, s1, s2;<br>
+output [7:0] y;<br>
+assign y[0]=~s0 &~s1 &~s2 & i;<br>
+assign y[1]=~s0 &~s1 &s2 & i;<br>
+assign y[2]=~s0 &s1 &~s2 & i;<br>
+assign y[3]=~s0 &s1 &s2 & i;<br>
+assign y[4]=s0 & ~s1 & ~s2 & i;<br>
+assign y[5]=s0 & ~s1 & s2 & i;<br>
+assign y[6]=s0 & s1 & ~s2 & i;<br>
+assign y[7]=s0 & s1 &s2 & i;<br>
 endmodule
 
 ## OUTPUT:
@@ -140,26 +140,26 @@ module mag_cmp(a,b,l,g,e);<br>
 input [3:0]a,b;<br>
 output reg l,g,e;<br>
 always @(*)<br>
-begin
-if(a>b)
-begin
-l=1'b0;
-g=1'b1;
-e=1'b0;
-end
-else if(a<b)
-begin
-l=1'b1;
-g=1'b0;
-e=1'b0;
-end
-else
-begin
-l=1'b0;
-g=1'b0;
-e=1'b1;
-end
-end
+begin<br>
+if(a>b)<br>
+begin<br>
+l=1'b0;<br>
+g=1'b1;<br>
+e=1'b0;<br>
+end<br>
+else if(a<b)<br>
+begin<br>
+l=1'b1;<br>
+g=1'b0;<br>
+e=1'b0;<br>
+end<br>
+else<br>
+begin<br>
+l=1'b0;<br>
+g=1'b0;<br>
+e=1'b1;<br>
+end<br>
+end<br>
  endmodule
 
 
