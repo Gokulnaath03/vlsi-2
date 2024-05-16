@@ -1,14 +1,16 @@
 # vlsi-2
+# SIMULATE AND SYNTHESIS ENCODER,DECODER,MULTIPLEXER,DEMULTIPLEXER,MAGNITUDE COMPARATOR USING VIVADO.
 
-#AIM: To simulate and synthesis ENCODER, DECODER, MULTIPLEXER,
-DEMULTIPLEXER, MAGNITUDE COMPARATOR using SIMULATION AND IMPLEMENTATION OF COMBINATIONAL
- CIRCUITS
-
-
- #APPARATUS REQUIRED: VIVADO 2023.2
+## AIM:
+To simulate and synthesis ENCODER, DECODER, MULTIPLEXER,
+DEMULTIPLEXER, MAGNITUDE COMPARATOR using VIVADO.
 
 
- #PROCEDURE:
+ ## APPARATUS REQUIRED: 
+ VIVADO 2023.2
+
+
+ ## PROCEDURE:
 STEP:1 Start the Vivado, Select and Name the New project.
 STEP:2 Select the device family, device, package and speed.
 STEP:3 Select new source in the New Project and select Verilog Module
@@ -21,13 +23,13 @@ STEP:6 Click the simulation to simulate the program and give the inputs
 and verify the outputs as per the truth table.
 
 
-#ENCODER 8:3:
+## ENCODER 8:3:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/05ff5bc8-333d-44da-8710-93a249edaf79)
 
 
 
-#PROGRAM:
+## PROGRAM:
  module encoder (d, a0, a1, a2);
  input [7:0] d;
  output a0, a1, a2;
@@ -37,18 +39,18 @@ and verify the outputs as per the truth table.
  endmodule
 
 
-OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/39e461d2-021a-4331-a00c-f621c2b5d2e6)
 
 
-#DECORDER 3:8:
+## DECORDER 3:8:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/10e45252-7c64-4fb1-82b9-0e389a6ff81b)
 
 
 
-#PROGRAM:
+## PROGRAM:
 module decoder (s, y);
 input [2:0] s;
 output [7:0] y;
@@ -63,20 +65,20 @@ assign y[7]=s[2] & s[1] & s[0];
 endmodule
 
 
-#OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/625db202-8ec3-4854-a8c0-866bc7def091)
 
 
 
-#MULTIPLEXER 8:1:
+## MULTIPLEXER 8:1:
 
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/1aad5a53-cd6b-4b29-beb2-1ee33ea376e7)
 
 
 
-#PROGRAM:
+## PROGRAM:
 module Mux_8_1(s0,s1,s2,i,y);
 input [7:0] i;
 input s0, s1, s2;
@@ -94,19 +96,19 @@ assign y=w[0] |w[1] |w[2] |w[3] |w[4] |w[5] |w[6] |w[7];
 endmodule
 
 
-#OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/901d55a8-95ed-4925-9a30-436629c33519)
 
 
 
-#DEMULTIPLEXER 1:8:
+## DEMULTIPLEXER 1:8:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/f8462642-e086-4031-9a6b-9253e05332d7)
 
 
 
-PROGRAM:
+## PROGRAM:
 module Demux1_8(i, s0, s1, s2, y);
 input i;
 input s0, s1, s2;
@@ -121,19 +123,19 @@ assign y[6]=s0 & s1 & ~s2 & i;
 assign y[7]=s0 & s1 &s2 & i;
 endmodule
 
-#OUTPUT:
+## OUTPUT:
 
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/73c224a7-e56c-4864-b819-860e6133571f)
 
 
-#MAGNITUDE COMPARATOR:
+## MAGNITUDE COMPARATOR:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/bf05f183-62b4-4033-82c5-b90991cb9574)
 
 
 
-#PROGRAM:
+## PROGRAM:
 module mag_cmp(a,b,l,g,e);
 input [3:0]a,b;
 output reg l,g,e;
@@ -161,13 +163,11 @@ end
  endmodule
 
 
-#OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/de93518e-2703-4a66-b9bd-360405d62f96)
 
 
 
-#RESULT:
- Thus, the combinational circuits of multiplexer, demultiplexer, encoder,
-decoder and magnitude comparator are implemented and simulated
-successfully.
+## RESULT:
+ The simulate and synthesis ENCODER,DECODER,MULTIPLEXER,DEMULTIPLEXER,MAGNITUDE COMPARATOR using VIVADO is successfully verified.
