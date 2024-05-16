@@ -51,17 +51,17 @@ and verify the outputs as per the truth table.
 
 
 ## PROGRAM:
-module decoder (s, y);
-input [2:0] s;
-output [7:0] y;
-assign y[0]=~s[2] & ~s[1] & ~s[0];
-assign y[1]=~s[2] &~s[1] & s[0];
-assign y[2]=~s[2] & s[1] &~s[0];
-assign y[3]=~s[2] & s[1] & s[0];
-assign y[4]=s[2] & ~s[1] & ~s[0];
-assign y[5]=s[2] & ~s[1] & s[0];
-assign y[6]=s[2] & s[1] & ~s[0];
-assign y[7]=s[2] & s[1] & s[0];
+module decoder (s, y);<br>
+input [2:0] s;<br>
+output [7:0] y;<br>
+assign y[0]=~s[2] & ~s[1] & ~s[0];<br>
+assign y[1]=~s[2] &~s[1] & s[0];<br>
+assign y[2]=~s[2] & s[1] &~s[0];<br>
+assign y[3]=~s[2] & s[1] & s[0];<br>
+assign y[4]=s[2] & ~s[1] & ~s[0];<br>
+assign y[5]=s[2] & ~s[1] & s[0];<br>
+assign y[6]=s[2] & s[1] & ~s[0];<br>
+assign y[7]=s[2] & s[1] & s[0];<br>
 endmodule
 
 
