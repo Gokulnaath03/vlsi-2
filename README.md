@@ -136,10 +136,10 @@ endmodule
 
 
 ## PROGRAM:
-module mag_cmp(a,b,l,g,e);
-input [3:0]a,b;
-output reg l,g,e;
-always @(*)
+module mag_cmp(a,b,l,g,e);<br>
+input [3:0]a,b;<br>
+output reg l,g,e;<br>
+always @(*)<br>
 begin
 if(a>b)
 begin
