@@ -79,20 +79,20 @@ endmodule
 
 
 ## PROGRAM:
-module Mux_8_1(s0,s1,s2,i,y);
-input [7:0] i;
-input s0, s1, s2;
-output y;
-wire [7:0] w;
-assign w[0]=(~s2) & (~s1) & (~s0) & i[0];
-assign w[1]=(~s2) &(~s1) &(s0) & i[1];
-assign w[2]=(~s2) &(s1) &(~s0) & i[2];
-assign w[3]=(~s2) &(s1) &(s0) & i[3];
-assign w[4]=(s2) &(~s1) &(~s0) & i[4];
-assign w[5]=(s2) &(~s1) &(s0) & i[5];
-assign w[6]=(s2) &(s1) &(~s0) & i[6];
-assign w[7]=(s2) &(s1) &(s0) & i[7];
-assign y=w[0] |w[1] |w[2] |w[3] |w[4] |w[5] |w[6] |w[7];
+module Mux_8_1(s0,s1,s2,i,y);<br>
+input [7:0] i;<br>
+input s0, s1, s2;<br>
+output y;<br>
+wire [7:0] w;<br>
+assign w[0]=(~s2) & (~s1) & (~s0) & i[0];<br>
+assign w[1]=(~s2) &(~s1) &(s0) & i[1];<br>
+assign w[2]=(~s2) &(s1) &(~s0) & i[2];<br>
+assign w[3]=(~s2) &(s1) &(s0) & i[3];<br>
+assign w[4]=(s2) &(~s1) &(~s0) & i[4];<br>
+assign w[5]=(s2) &(~s1) &(s0) & i[5];<br>
+assign w[6]=(s2) &(s1) &(~s0) & i[6];<br>
+assign w[7]=(s2) &(s1) &(s0) & i[7];<br>
+assign y=w[0] |w[1] |w[2] |w[3] |w[4] |w[5] |w[6] |w[7];<br>
 endmodule
 
 
