@@ -24,7 +24,6 @@ and verify the outputs as per the truth table.
 
 
 ## ENCODER 8:3:
-
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/05ff5bc8-333d-44da-8710-93a249edaf79)
 
 
@@ -45,7 +44,6 @@ and verify the outputs as per the truth table.
 
 
 ## DECORDER 3:8:
-
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/10e45252-7c64-4fb1-82b9-0e389a6ff81b)
 
 
@@ -72,8 +70,6 @@ endmodule
 
 
 ## MULTIPLEXER 8:1:
-
-
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/1aad5a53-cd6b-4b29-beb2-1ee33ea376e7)
 
 
@@ -103,7 +99,6 @@ endmodule
 
 
 ## DEMULTIPLEXER 1:8:
-
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/f8462642-e086-4031-9a6b-9253e05332d7)
 
 
@@ -130,7 +125,6 @@ endmodule
 
 
 ## MAGNITUDE COMPARATOR:
-
 ![image](https://github.com/Gokulnaath03/vlsi-2/assets/167178811/bf05f183-62b4-4033-82c5-b90991cb9574)
 
 
