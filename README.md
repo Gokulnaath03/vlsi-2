@@ -30,7 +30,7 @@ and verify the outputs as per the truth table.
 
 
 ## PROGRAM:
- module encoder (d, a0, a1, a2);c
+ module encoder (d, a0, a1, a2);<br>
  input [7:0] d;<br>
  output a0, a1, a2;<br>
  assign a2=d[7] |d[6] |d[5] |d[4];<br>
