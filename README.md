@@ -11,14 +11,14 @@ DEMULTIPLEXER, MAGNITUDE COMPARATOR using VIVADO.
 
 
  ## PROCEDURE:
-STEP:1 Start the Vivado, Select and Name the New project.
-STEP:2 Select the device family, device, package and speed.
+STEP:1 Start the Vivado, Select and Name the New project.<br>
+STEP:2 Select the device family, device, package and speed.<br>
 STEP:3 Select new source in the New Project and select Verilog Module
-as the Source type.
+as the Source type.<br>
 STEP:4 Type the File Name and Click Next and then finish button. Type
-the code and save it.
+the code and save it.<br>
 STEP:5 Select the Behavioural Simulation in the Source Window and
-click the check syntax.
+click the check syntax.<br>
 STEP:6 Click the simulation to simulate the program and give the inputs
 and verify the outputs as per the truth table.
 
@@ -30,7 +30,7 @@ and verify the outputs as per the truth table.
 
 
 ## PROGRAM:
- module encoder (d, a0, a1, a2);<br>
+ module encoder (d, a0, a1, a2);c
  input [7:0] d;<br>
  output a0, a1, a2;<br>
  assign a2=d[7] |d[6] |d[5] |d[4];<br>
